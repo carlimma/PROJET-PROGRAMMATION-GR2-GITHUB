@@ -1,0 +1,116 @@
+.PageChoix {
+  background: url('./images/ParametersBackground.jpg');
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  position: absolute;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottomCointainerPageChoix {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  border-top: 2px inset seagreen;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 50%;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.pseudo {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  border-bottom: 2px inset seagreen;
+  border-left: 2px inset seagreen;
+  padding: 10px;
+}
+
+.Select {
+  width: auto;
+  padding: 10px;
+  position: absolute;
+  transform: translate(0%, -100%);
+  top: 0%;
+  border: 2px inset black;
+  border-radius: 4px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  outline: none;
+  /* Supprime la bordure de mise au point par défaut */
+}
+
+/* Style pour les options du select */
+.Select option {
+  font-size: 13px;
+  background-color: rgb(90, 90, 90);
+  font-style: italic;
+  color: white;
+}
+
+.h1 {
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 
+    2px 2px rgb(60, 60, 60),
+    -2px 2px rgb(60, 60, 60),
+    2px -2px rgb(60, 60, 60),
+    -2px -2px rgb(60, 60, 60);
+  color: white;
+  background-color: transparent;
+}
+
+.topCointainerPageChoix {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.perIDZone {
+  border: 2px inset seagreen;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.buttonPerID {
+  border-radius: 0px;
+  border: 2px inset green;
+  padding: 10px 5px;
+  color: white;
+  width: 50%;
+  transition: 0.5s;
+}
+.buttonPerID:hover {
+  background-color: green;
+}
+
+.joinableGame {
+  border: 2px inset black;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+.joinableGame:hover {
+  background-color: rgb(60, 60, 60);
+}

@@ -1,0 +1,84 @@
+.card {
+    height: 150px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border: 1px inset rgb(90, 15, 15);
+    transition: 0.2s;
+}
+
+.timer {
+    bottom: 0%;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    border-top: 2px outset black;
+    border-left: 2px outset black;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.opponentContainer {
+    top: 0%;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.opponent {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100px;
+    flex-wrap: wrap;
+    background-size: cover;
+    border: 3px inset rgb(90, 15, 15);
+}
+
+.end {
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px inset red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.endButton {
+    border: 2px inset red;
+    border-radius: 0px;
+}
+
+.choiceCrazy8 {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px inset black;
+}

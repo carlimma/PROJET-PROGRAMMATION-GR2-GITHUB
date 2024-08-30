@@ -1,0 +1,77 @@
+.unlockedColors {
+    height: 40%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-bottom: 2px outset royalblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.unlockedColorsTitle {
+    font-size: inherit;
+    position: absolute;
+    margin-bottom: auto;
+    margin-top: inherit;
+    align-self: center;
+    top: 10%;
+    margin: inherit;
+}
+
+.unlockedColor {
+    position: relative;
+    height: auto;
+    width: auto;
+    border-radius: inherit;
+}
+
+.colorInfo {
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.lockedColors {
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-top: 2px outset royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lockedColorsTitle {
+    font-size: inherit;
+    position: absolute;
+    margin-bottom: auto;
+    margin-top: inherit;
+    align-self: center;
+    top: 10%;
+    margin: inherit;
+}
+
+.lockedColor {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.unlockedColor:hover {
+    color: black;
+}
+.lockedColor:hover {
+    color: black
+}

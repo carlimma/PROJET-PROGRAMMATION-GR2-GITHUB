@@ -1,0 +1,48 @@
+.filter {
+    left: 0%;
+    height: 100%;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    position: absolute;
+    border-right: 2px inset red;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.choice {
+    border: 0px;
+    border-bottom: 2px inset red;
+    border-top: 2px inset red;
+    border-radius: inherit;
+    font-size: 80%;
+    height: fit-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    left: 10%;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Parameters {
+    background-image: url('./images/ParametersBackground.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    background-size: cover;
+}
